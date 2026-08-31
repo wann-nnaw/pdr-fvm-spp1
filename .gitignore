@@ -1,0 +1,49 @@
+# Raw and derived analysis data
+data/
+rda/
+results/
+plot/
+1_singlecell/
+export/
+
+# Large analysis artefacts
+*.RData
+*.rda
+*.RDS
+*.rds
+*.loom
+*.h5ad
+*.h5
+*.mtx
+*.mtx.gz
+*.feather
+
+# Manuscript, figure, and slide artefacts
+*.tif
+*.tiff
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.ai
+*.pptx
+*.docx
+*.xlsx
+
+# R, Python, and editor state
+.Rproj.user/
+.Rhistory
+.RData
+.r-lib/
+.pyscenic-venv/
+.pyscenic39-venv/
+__pycache__/
+*.pyc
+
+# Operating-system and temporary files
+.DS_Store
+*.swp
+*.tmp
+.tmp*/
+tmp/
