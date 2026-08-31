@@ -2,7 +2,7 @@
 
 ## Important status note
 
-The mappings below describe the intended relationship between the scripts and the final Figure 1–7 and Supplementary Table S1–S7 materials. They have not yet been confirmed by a clean end-to-end rerun of the copied August 2026 scripts.
+The mappings below describe the relationship between the scripts and the final Figure 1–7 and Supplementary Table S1–S7 materials, as confirmed in the successfully rerun workflow supporting the current manuscript. Raw inputs, intermediate objects, generated results, and figure source files are intentionally excluded from this lightweight archive; it is therefore not a standalone data package for a new user.
 
 | Order | Script | Main purpose | Expected manuscript support |
 | --- | --- | --- | --- |
