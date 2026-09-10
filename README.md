@@ -4,7 +4,7 @@ Code accompanying a computational reanalysis of proliferative diabetic retinopat
 
 ## Scope of this repository
 
-This private repository contains only the ten main analysis scripts and documentation. It does **not** contain raw data, intermediate R objects, generated results, figure source files, author information, institutional information, or a software lock file.
+This public repository contains only the ten main analysis scripts and documentation. It does **not** contain raw data, intermediate R objects, generated results, figure source files, author information, institutional information, or a software lock file.
 
 The primary public datasets are:
 
@@ -17,16 +17,16 @@ GSE102485 is affected by disease-status and tissue-source confounding. It must n
 
 The versions of the ten main scripts archived here were successfully rerun for the analyses supporting the current manuscript. This repository is deliberately a lightweight code archive rather than a self-contained data package.
 
-- Raw public inputs, intermediate R objects, generated results, and figure source files are intentionally excluded from this private archive.
+- Raw public inputs, intermediate R objects, generated results, and figure source files are intentionally excluded from this repository.
 - A new user must obtain the public GEO inputs and create the expected input files before running the workflow independently.
-- A future public reproducibility release should add a data-download step, freeze the R and Python environments, and archive the verified runtime record.
+- This public release is a lightweight code archive rather than a self-contained data package. Raw inputs are obtained from the public GEO repositories, and the expected input paths are documented in the run-order file. The environment record below is historical and should not be interpreted as a locked runtime.
 
 ## Repository layout
 
 ```text
 scripts/       Main analysis scripts, executed from the repository root
 docs/          Run order, expected outputs, and evidence boundaries
-environment/   Historical environment record and future locking instructions
+environment/   Historical environment record and environment notes
 ```
 
 ## Main analysis order
@@ -50,4 +50,4 @@ A cleaned historical environment summary is available in [environment/historical
 
 ## Privacy and publication status
 
-The repository intentionally contains no personal names, affiliations, email addresses, local machine paths, author identifiers, or credentials. It is private and has no license. Author, contact, license, citation, release, and DOI metadata must be added only when a public release is approved.
+The repository intentionally contains no personal names, affiliations, email addresses, local machine paths, author identifiers, or credentials. This public release is provided under the MIT License. Citation information is provided in `CITATION.cff`; an archived DOI can be added after a formal repository release.

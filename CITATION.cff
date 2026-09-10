@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and the archived software release."
+title: "Analysis code for an SPP1-associated cross-state macrophage program in proliferative diabetic retinopathy fibrovascular membranes"
+version: "1.0.0"
+date-released: 2026-09-10
+authors:
+  - family-names: Zhang
+    given-names: Zhi-Han
+  - family-names: Li
+    given-names: Qiao-Xin
+repository-code: "https://github.com/wann-nnaw/pdr-fvm-spp1"
+license: MIT
